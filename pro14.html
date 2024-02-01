@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pro14
+    </title>
+</head>
+<style>
+    * {
+        margin: 0px 0px;
+        padding: 0px 0px;
+    }
+
+    .main {
+        background: url('img/civil14.jpg') no-repeat center center/cover;
+        height: 865px;
+        width: 100%;
+        position: relative;
+        display: flex;
+        /* justify-content: center;
+        align-items: center; */
+
+    }
+
+    .main .box {
+        background-color: black;
+        opacity: 0.4;
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        top: 0;
+    }
+
+    .box1 {
+        /* border: 1px solid red; */
+        height: 800px;
+        width: 300px;
+        color: white;
+        position: relative;
+        z-index: 10;
+        margin-left: 10%;
+        font-size: 3.5rem;
+        font-family: 'Noto Sans', sans-serif;
+        font-weight: bold;
+    }
+
+    .box1 ol li {
+        padding-bottom: 50px;
+        padding-top: 80px;
+    }
+
+    .box1 ol li:hover {
+        color:rgb(217, 145, 1) ;
+        cursor: pointer;
+    }
+</style>
+
+<body>
+    <div class="main">
+        <div class="box"></div>
+        <div class="box1">
+            <ol type="I">
+                <li>M<sub>20</sub></li>
+                <li>M<sub>30</sub></li>
+                <li>M<sub>40</sub></li>
+                <li>M<sub>50</sub></li>
+            </ol>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
